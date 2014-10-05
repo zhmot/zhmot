@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="skill">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet"  href="jquery.mobile-1.2.1.css" />
+    <link rel="stylesheet" href="jqm-docs.css"/>
+
+    <script src="jquery-1.7.1.min.js"></script>
+    <script src="jqm-docs.js"></script>
+    <script src="jquery.mobile-1.2.1.js"></script>
+    <script src="angular.js"></script>
+    <script src="indexeddb.js"></script>
+    <script src="engine.js"></script>
+
+</head>
+<body>
+
+<a href="#popupWaste" data-rel="popup" data-position-to="window" data-role="button" data-inline="true">+</a>
+
+
+<div data-role="popup" id="popupWaste" data-theme="a" class="ui-corner-all">
+    <form>
+        <div style="padding:10px 20px;">
+            <h3>Please sign in</h3>
+            <label for="un" class="ui-hidden-accessible">Username:</label>
+            <input type="text" name="user" id="un" value="" placeholder="username" data-theme="a" />
+            <label for="pw" class="ui-hidden-accessible">Password:</label>
+            <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="a" />
+            <button type="submit" data-theme="b">Sign in</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
